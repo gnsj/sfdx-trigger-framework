@@ -1,4 +1,4 @@
-trigger AccountTrigger on SOBJECT (before insert, before update, before delete, after insert, after update, after delete, after undelete) {
+trigger AccountTrigger on Account (before insert, before update, before delete, after insert, after update, after delete, after undelete) {
 
     if(! UtilityClass.isTriggerEnabled() ){ return ; }
     
