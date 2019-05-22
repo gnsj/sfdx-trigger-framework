@@ -1,0 +1,19 @@
+# Created by https://www.gitignore.io/api/salesforcedx
+# Edit at https://www.gitignore.io/?templates=salesforcedx
+
+### SalesforceDX ###
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
+.project
+.settings/
+.metadata
+build.properties
+#config
+
+# Apex Log as optional
+apex-scripts/log
+
+### SalesforceDX Patch ###
+.sfdx
+
+# End of https://www.gitignore.io/api/salesforcedx
